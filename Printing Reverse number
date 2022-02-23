@@ -1,0 +1,27 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+l=[]
+n=int(input("Enter n:"))
+for i in range(n):
+    e=int(input())
+    l.append(e)
+for i in range(n-1,-1,-1):
+    print(l[i])
+    
+    output:
+    
+    Enter n:
+5
+56
+24
+89
+57
+24
+24
+57
+89
+24
+56
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
